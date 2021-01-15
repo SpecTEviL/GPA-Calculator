@@ -6,7 +6,25 @@
     Highlight Font: Righteous
 
 */
+@font-face {
+    font-family: 'designerregular';
+    src: url('https://SpecTEviL.github.io/fonts/designer_400-webfont.woff2') format('woff2'),
+         url('https://SpecTEviL.github.io/fonts/designer_400-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ayuthayaregular';
+    src: url('https://SpecTEviL.github.io/fonts/ayuthaya-webfont.woff2') format('woff2'),
+         url('https://SpecTEviL.github.io/fonts/ayuthaya-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
+    font-family: 'ayuthayaregular';
     background:#080a52;
     font-size: 14px;
     color: #fff;
@@ -38,16 +56,18 @@ body {
 .form-group{
     text-align: right;
 }
-.col-8{
+.col-7{
     padding-top: 8%;
     padding-left: 5%;
 }
 .whatsmygpa{
     text-align: left;
+    /*padding-top: 10%;*/
     color: #080a52;
     font-size: 500%;
     border-left: solid 12px;
     padding-left: 15px;
+    font-family: 'designerregular';
 }
 .btn-primary{
     color: #080a52;

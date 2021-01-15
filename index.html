@@ -10,6 +10,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="static/bootstrap.min.css">
     <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <div class="container">
@@ -17,20 +18,20 @@
         <div class="col-1"></div>
         <div class="col-10">
         <div class="card text-center" style="margin-top: 5%;">
-            <div class="card-header">What's My GPA?</div>
+            <div class="card-header"><h2 class="animate__animated animate__flip">What's My GPA?</h2></div>
             <div class="card-body">
                 <div class="row">
                     <!-- LEFT HEADING -->
-                    <div class="col-8">
+                    <div class="col-7 animate__animated animate__flipInY">
                         <div class="whatsmygpa">What's <br> My <br> GPA?</div>
                     </div>
                     <!-- LEFT HEADING ENDS -->
                     <!-- FORM INPUTS -->
-                    <div class="col-4">
+                    <div class="col-5">
                         <div class="">
                             <!-- MATHS -->
                             <div class="form-group">
-                                <label for="exampleFormControlSelect1">Maths</label>
+                                <label class="" for="exampleFormControlSelect1">Maths</label>
                                 <select class="form-control" id="maths">
                                     <option>AA</option>
                                     <option>AB</option>
@@ -136,7 +137,7 @@
                 </div>
                 <!-- FINAL RESULT -->
                 <h5 class="card-title" style="margin-top: 2%;">
-                    <div class=""><p id="showData"></p></div>
+                    <p id="showData"></p>
                 </h5>
                 <!-- FINAL RESULT ENDS -->
             </div>
@@ -171,8 +172,8 @@
                 </div>
                 <!-- INSTRUCTIONS MODAL ENDS -->
                 
-                <div class="col-6">
-                    Built By @<a class="madeby" href="https://github.com/SpecTEviL" title="SpectEvil's GitHub Repo">SpecTEviL</a>
+                <div class="col-6" style="color: #fff;">
+                    😎Built By @<a class="madeby" href="https://github.com/SpecTEviL" title="SpectEvil's GitHub Repo">SpecTEviL😎</a>
                 </div>
 
                 <!-- ABOUT US MODAL -->
