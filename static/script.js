@@ -84,14 +84,15 @@ const calcy = () =>{
     perc = perc.toFixed(2);
 
     // debugger;
+    console.log(maths);
 
     if(perc > 4) grades = 'PASS';
     else grades = 'FAILED';
 
     if(perc >= 4){
-      document.getElementById('showData').innerHTML = `Your CGPA is ${perc} and guess what you're ${grades}.`
+      document.getElementById('showData').innerHTML = `Your CGPA is ${perc}🤩 and guess what you're ${grades}🥳`
     }
     else{
-      document.getElementById('showData').innerHTML = `You're Failed. BuckleUp Champ you can do it. Just STUDY HARD.`
+      document.getElementById('showData').innerHTML = `You're Failed☹️. BuckleUp Champ you can do it😀. Just STUDY HARD🤠`
     }       
 }
