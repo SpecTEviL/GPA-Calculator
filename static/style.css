@@ -8,16 +8,16 @@
 */
 @font-face {
     font-family: 'designerregular';
-    src: url('https://SpecTEviL.github.io/fonts/designer_400-webfont.woff2') format('woff2'),
-         url('https://SpecTEviL.github.io/fonts/designer_400-webfont.woff') format('woff');
+    src: url('https://SpecTEviL.github.io/GPA-Calculator/fonts/designer_400-webfont.woff2') format('woff2'),
+         url('https://SpecTEviL.github.io/GPA-Calculator/fonts/designer_400-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'ayuthayaregular';
-    src: url('https://SpecTEviL.github.io/fonts/ayuthaya-webfont.woff2') format('woff2'),
-         url('https://SpecTEviL.github.io/fonts/ayuthaya-webfont.woff') format('woff');
+    src: url('https://SpecTEviL.github.io/GPA-Calculator/fonts/ayuthaya-webfont.woff2') format('woff2'),
+         url('https://SpecTEviL.github.io/GPA-Calculator/fonts/ayuthaya-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -83,9 +83,6 @@ body {
     border: solid 2px;
     border-radius: 10px;
 }
-.modal{
-    
-}
 .modal-body{
     background: #080a52;
     color: #fff;
@@ -94,3 +91,7 @@ body {
     background: #fff;
     color: #080a52;
 }
+/* #aboutus {
+    width: 150%;
+    height: 150%;
+} */
