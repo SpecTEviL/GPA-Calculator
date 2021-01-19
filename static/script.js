@@ -72,26 +72,26 @@ const calcy = () =>{
     else {edclab = 0;}
 
 
-    let totalGrades = parseFloat(maths) +
-                      parseFloat(machines) +
-                      parseFloat(networks) +
-                      parseFloat(edc) +
-                      parseFloat(powersystems) +
-                      parseFloat(machineslab) +
-                      parseFloat(edclab);
+    let totalGradesSubs = parseFloat(maths) +
+                          parseFloat(machines) +
+                          parseFloat(networks) +
+                          parseFloat(edc) +
+                          parseFloat(powersystems);
 
-    let perc = (totalGrades*3)/21;
+    let totalGradesLabs = parseFloat(machineslab) + parseFloat(edclab);
+    let perc = ((totalGradesSubs*3) + (totalGradesLabs*1.5))/18;
     perc = perc.toFixed(2);
 
     // debugger;
+    // console.log(maths);
 
     if(perc > 4) grades = 'PASS';
     else grades = 'FAILED';
 
     if(perc >= 4){
-      document.getElementById('showData').innerHTML = `Your CGPA is ${perc} and guess what you're ${grades}.`
+      document.getElementById('showData').innerHTML = `Your CGPA is ${perc}🤩 and guess what you're ${grades}🥳`
     }
     else{
-      document.getElementById('showData').innerHTML = `You're Failed. BuckleUp Champ you can do it. Just STUDY HARD.`
+      document.getElementById('showData').innerHTML = `You're Failed☹️. BuckleUp Champ you can do it😀. Just STUDY HARD🤠`
     }       
 }
