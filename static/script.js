@@ -72,19 +72,18 @@ const calcy = () =>{
     else {edclab = 0;}
 
 
-    let totalGrades = parseFloat(maths) +
-                      parseFloat(machines) +
-                      parseFloat(networks) +
-                      parseFloat(edc) +
-                      parseFloat(powersystems) +
-                      parseFloat(machineslab) +
-                      parseFloat(edclab);
+    let totalGradesSubs = parseFloat(maths) +
+                          parseFloat(machines) +
+                          parseFloat(networks) +
+                          parseFloat(edc) +
+                          parseFloat(powersystems)+10;
 
-    let perc = (totalGrades*3)/21;
+    let totalGradesLabs = parseFloat(machineslab) + parseFloat(edclab);
+    let perc = ((totalGradesSubs*3) + (totalGradesLabs*1.5))/21;
     perc = perc.toFixed(2);
 
     // debugger;
-    console.log(maths);
+    // console.log(maths);
 
     if(perc > 4) grades = 'PASS';
     else grades = 'FAILED';
