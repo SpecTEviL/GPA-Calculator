@@ -76,10 +76,10 @@ const calcy = () =>{
                           parseFloat(machines) +
                           parseFloat(networks) +
                           parseFloat(edc) +
-                          parseFloat(powersystems)+10;
+                          parseFloat(powersystems);
 
     let totalGradesLabs = parseFloat(machineslab) + parseFloat(edclab);
-    let perc = ((totalGradesSubs*3) + (totalGradesLabs*1.5))/21;
+    let perc = ((totalGradesSubs*3) + (totalGradesLabs*1.5))/18;
     perc = perc.toFixed(2);
 
     // debugger;
